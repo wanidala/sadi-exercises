@@ -11,7 +11,7 @@ import sadi.week1.birds.*;
  * Test harness / driver for model
  */
 public class Week1 {
-	public void main(String args[])
+	public static void main(String args[])
 	{
 		List<ISuperhero> heroes = new ArrayList<ISuperhero>();
 		List<IFly> flyers = new ArrayList<IFly>();
@@ -31,6 +31,8 @@ public class Week1 {
 			hero.saveTheWorld();
 			System.out.println();
 		}
+		
+		System.out.println();
 		
 		for(IFly flyer : flyers)
 		{

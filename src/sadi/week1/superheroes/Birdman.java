@@ -9,6 +9,14 @@ import sadi.week1.interfaces.IFly;
 public class Birdman extends Superhero implements IFly {
 
 	/**
+	 * Subclass constructor that implements super class functionality
+	 */
+	public Birdman()
+	{
+		super("Birdman");
+	}
+	
+	/**
 	 * Implements IFly's fly method
 	 */
 	@Override
