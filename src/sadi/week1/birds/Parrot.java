@@ -7,7 +7,15 @@ import sadi.week1.interfaces.IFly;
  *
  */
 public class Parrot extends Bird implements IFly {
-
+	
+	/**
+	 * Subclass constructor that implements super class functionality
+	 */
+	public Parrot()
+	{
+		super("Parrot");
+	}
+	
 	/**
 	 * Implements IFly's fly method
 	 */

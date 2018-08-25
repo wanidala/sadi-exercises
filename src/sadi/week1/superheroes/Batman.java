@@ -7,6 +7,13 @@ package sadi.week1.superheroes;
 public class Batman extends Superhero{
 	
 	/**
+	 * Subclass constructor that implements super class functionality
+	 */
+	public Batman()
+	{
+		super("Batman");
+	}
+	/**
 	 * Overrides default behaviour of Superhero.saveTheWorld()
 	 */
 	@Override

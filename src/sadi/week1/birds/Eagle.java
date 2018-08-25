@@ -9,6 +9,13 @@ import sadi.week1.interfaces.IFly;
 public class Eagle extends Bird implements IFly {
 
 	/**
+	 * Subclass constructor that implements super class functionality
+	 */
+	public Eagle()
+	{
+		super("Eagle");
+	}
+	/**
 	 * Implements IFly's fly method
 	 */
 	@Override

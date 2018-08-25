@@ -5,5 +5,11 @@ package sadi.week1.birds;
  *
  */
 public class Penguin extends Bird {
-
+	/**
+	 * Subclass constructor that implements super class functionality
+	 */
+	public Penguin()
+	{
+		super("Penguin");
+	}
 }

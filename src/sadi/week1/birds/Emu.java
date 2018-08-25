@@ -5,5 +5,11 @@ package sadi.week1.birds;
  *
  */
 public class Emu extends Bird {
-
+	/**
+	 * Subclass constructor that implements super class functionality
+	 */
+	public Emu()
+	{
+		super("Emu");
+	}
 }

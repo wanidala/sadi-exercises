@@ -6,4 +6,11 @@ package sadi.week1.superheroes;
  */
 public class WonderWoman extends Superhero {
 
+	/**
+	 * Subclass constructor that implements super class functionality
+	 */
+	public WonderWoman()
+	{
+		super("Wonder Woman");
+	}
 }
